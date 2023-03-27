@@ -1,4 +1,5 @@
-// these aren't really private, but nor are they really useful to document
+/* eslint-disable */
+
 
 /**
  * @private
@@ -424,7 +425,7 @@ function hackyOffset(dtf, date) {
 function partsOffset(dtf, date) {
   const formatted = dtf.formatToParts(date);
   const filled = [];
-  for (let i = 0; i < formatted.length; i++) {
+  for (let i = 0; i < formatted.length; i += 1) {
     const { type, value } = formatted[i];
     const pos = typeToPos[type];
 
@@ -685,7 +686,7 @@ function intlConfigString(localeStr, numberingSystem, outputCalendar) {
 
 function mapMonths(f) {
   const ms = [];
-  for (let i = 1; i <= 12; i++) {
+  for (let i = 1; i <= 12; i += 1) {
     const dt = DateTime.utc(2016, i, 1);
     ms.push(f(dt));
   }
@@ -694,7 +695,7 @@ function mapMonths(f) {
 
 function mapWeekdays(f) {
   const ms = [];
-  for (let i = 1; i <= 7; i++) {
+  for (let i = 1; i <= 7; i += 1) {
     const dt = DateTime.utc(2016, 11, 13 + i);
     ms.push(f(dt));
   }
@@ -1844,7 +1845,7 @@ class Formatter {
     let currentFull = '';
     let bracketed = false;
     const splits = [];
-    for (let i = 0; i < fmt.length; i++) {
+    for (let i = 0; i < fmt.length; i += 1) {
       const c = fmt.charAt(i);
       if (c === "'") {
         if (currentFull.length > 0) {
@@ -2245,7 +2246,7 @@ function simpleParse(...keys) {
     const ret = {};
     let i;
 
-    for (i = 0; i < keys.length; i++) {
+    for (i = 0; i < keys.length; i += 1) {
       ret[keys[i]] = parseInteger(match[cursor + i]);
     }
     return [ret, null, cursor + i];
@@ -4364,7 +4365,7 @@ function parseDigits(str) {
   let value = parseInt(str, 10);
   if (isNaN(value)) {
     value = '';
-    for (let i = 0; i < str.length; i++) {
+    for (let i = 0; i < str.length; i += 1) {
       const code = str.charCodeAt(i);
 
       if (str[i].search(numberingSystems.hanidec) !== -1) {

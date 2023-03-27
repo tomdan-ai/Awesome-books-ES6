@@ -1,130 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
-    <title>Awesome-Books</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
     <header>
-    <nav class="navbar ">
-        <a class="navbar-brand" href="#">Awesome Books</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <button class="nav-btn btn-link nav-link" id="home-btn">
-                Home
-              </button>
-            </li>
-            <li class="nav-item">
-              <button
-                class="nav-btn btn-link nav-link"
-                id="add-book-btn"
-                >Add a Book</button
-              >
-            </li>
-            <li class="nav-item">
-              <button class="nav-btn btn-link nav-link" id="contact-btn">
-                Contact
-              </button>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <div class="Time">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-2 px-md-5">
+      <a class="navbar-brand" href="#">Awesome Books</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <button class="nav-btn btn-link nav-link" id="home-btn">
+              Home
+            </button>
+          </li>
+          <li class="nav-item">
+            <button
+              class="nav-btn btn-link nav-link"
+              id="add-book-btn"
+              >Add a Book</button
+            >
+          </li>
+          <li class="nav-item">
+            <button class="nav-btn btn-link nav-link" id="contact-btn">
+              Contact
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="Time">
         <p id="time"></p>
       </div>
     </header>
-      <div class="main-container container-md my-5">
-        <h1>Awesome Books</h1>
-        
-        <form class="contact-form w-75">
-          <div class="form-group mt-3">
-            <label for="email">Email address</label>
-            <input
-              required
-              id="email"
-              type="email"
-              class="form-control"
-              aria-describedby="emailHelp"
-              placeholder="example@domain.com"
-            />
-            <small id="emailHelp" class="form-text text-muted"
-              >We'll never share your email with anyone else.</small
-            >
-          </div>
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input
-              required
-              type="text"
-              class="form-control"
-              id="name"
-              placeholder="John Doe"
-            />
-          </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea
-              required
-              class="form-control"
-              id="message"
-              placeholder="Message"
-            >
-            </textarea>
-          </div>
-          <button type="submit" class="btn btn-primary my-3">Submit</button>
-        </form>
-      </div>
-  
-      <div class="add-book-container">
-        <h1 id="exampleModalLabel">Add a book</h1>
-  
-        <form class="add-book-form my-3">
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Title</label>
-            <input
-              type="text"
-              class="form-control ."
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              required
-            />
-          </div>
-          <div class="formS">
-            <label for="exampleInputPassword1" class="form-label">Author</label>
-            <input
-              type="text"
-              class="form-control"
-              id="exampleInputPassword1"
-              required
-            />
-          </div>
-          <button type="submit" class="btn">
-            Submit
-          </button>
-        </form>
-      </div>
-      
-      <footer
-        class="foot"
+    <div class="main-container container-md my-5">
+      <h1>Awesome Books</h1>
+      <!-- <button
+        type="button"
+        class="btn btn-primary my-2"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
       >
-        Copyright &#169; 2023 AwesomeBooks.com
-      </footer>
+        Add a book
+      </button> -->
+      <form class="contact-form w-75">
+        <div class="form-group mt-3">
+          <label for="email">Email address</label>
+          <input
+            required
+            id="email"
+            type="email"
+            class="form-control"
+            aria-describedby="emailHelp"
+            placeholder="example@domain.com"
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >We'll never share your email with anyone else.</small
+          >
+        </div>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            required
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="John Doe"
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            required
+            class="form-control"
+            id="message"
+            placeholder="Message"
+          >
+          </textarea>
+        </div>
+        <button type="submit" class="btn btn-primary my-3">Submit</button>
+      </form>
+    </div>
 
-   <script type="module" src="./index.js"></script> 
-</body>
+    <div class="add-book-container container-md">
+      <h1 class="modal-title fs-5" id="exampleModalLabel">Add a book</h1>
+
+      <form class="add-book-form my-3">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Title</label>
+          <input
+            type="text"
+            class="form-control new-book-title"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Author</label>
+          <input
+            type="text"
+            class="form-control new-book-author"
+            id="exampleInputPassword1"
+            required
+          />
+        </div>
+        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">
+          Submit
+        </button>
+      </form>
+    </div>
+    
+    <footer
+      class="p-5 d-flex justify-content-start container-fluid bg-dark w-100 text-white"
+    >
+      Copyright &#169; 2023 AwesomeBooks.com
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./index.js"></script>
+  </body>
 </html>
