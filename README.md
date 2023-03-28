@@ -1,185 +1,200 @@
 <a name="readme-top"></a>
 
+
 <div align="center">
 
-  <br/>
-
-  <h3><b>Awesome Books Website</b></h3>
+  <h3><b>Awesome Books README</b></h3>
 
 </div>
+
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
-  - [Video Presentation](#video-presentation)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
+  - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
+<!-- PROJECT DESCRIPTION -->
 
-# 📖 Awesome Books <a name="about-project"></a>
+# 📖 [Awesome Books Project] <a href=""></a>
 
-
-**Awesome Books** will showcase my skills and accomplishments as a developer, the website enables a user to add and removes books by choice.
+# Awesome Books
+Awesome Books is a website built with modern Javascript, to aid writers to easily add their books and authors. 
 
 ## 🛠 Built With <a name="built-with"></a>
+<a href="">HTML</a>
+<a href="">CSS</a>
+<a href="">Javascript</a>
 
-### Tech Stack <a name="tech-stack"></a>
 
-> The technologies used are HTML/CSS/JS.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://www.w3schools.com/html/">HTML/CSS</a></li>
-  </ul>
-   <ul>
-    <li><a href="https://www.w3schools.com/js/">Javascript</a></li>
-  </ul>
-  <ul>
-    <li><a href="https://www.w3schools.com/">Bootstrap</a></li>
-  </ul>
-  <ul>
-    <li><a href="https://www.w3schools.com/">SCSS</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="#">N/A</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="#">N/A</a></li>
-  </ul>
-</details>
 
 ### Key Features <a name="key-features"></a>
 
-> Key features include:
-
-- **Mobile-First Design**
-- **Responsiveness**
-- **Pixel-Perfect**
-
+- **[Linters]**
+- **[HTML]**
+- **[JAVASCRIPT]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Here's the link to my project: 
-
- - *Coming Soon*
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Steps to run: 
 
 To get a local copy up and running, follow these steps.
+-[] Navigate into desired folder
+-[] Clone the repository 
+
+``sh
+    git clone https://github.com/tomdan-ai/Awesome-books-ES6.git
+    cd Awesome-books-ES6
+``
 
 ### Prerequisites
 
-In order to clone and run this project you need:
+In order to run this project you need:
 
-- A working browser
-- Installation of Git
-- Internet browser
-- Code editor like VS code
-- Live dev server plugin on VS code
+```sh
+npm init -y
+ npm install --save-dev hint@7.x
+ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x
+ npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+```
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-- To clone the project, copy the repository and git clone
-- Open the folder using VS code
+-[] Navigate into desired folder
+-[] Clone the repository 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+``sh
+    git clone https://github.com/tomdan-ai/Awesome-books-ES6.git
+    cd Awesome-books-ES6
+``
 
 ### Install
 
-Install this project with: 
+Install this project with:
 
-- Add linters to your local workspace by installing the eslint extension on VS code
-- Install eslint on node using `npm i -g eslint`
+```sh
+  cd Awesome-Books-ES6
+  npm install
+```
 
 ### Usage
 
-To run the project, execute the following commands:
+To run the project, execute the following command:
 
-- Run the index.html file using a live server
-- Make changes to the HTML/CSS
-- See the changes on your browser without refreshing
+```sh
+    cd Capstone-redo
+    npm install -g live-server
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+
+```sh
+  npx hint .
+  npx stylelint "**/*.{css,scss}"
+  npx eslint .
+```
 
 ### Deployment
 
-You can deploy this project using: N/A
+You can deploy this project using:
+
+Github pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
 👤 **TOM DANIEL**
 
 - GitHub: [@tomdan-ai](https://github.com/tomdan-ai)
-- Twitter: [@twitterhandle](https://twitter.com/tomudoh1)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tom-udoh-a89046256/)
+- Twitter: [@kingWebstar](https://twitter.com/tomudoh1)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/https://www.linkedin.com/in/tom-udoh-a89046256/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-- [ ] *Coming Soon*
+- [ ] **[Animations: I will love to add some animations to the navbar in future]**
+- [ ] **[HTML: I will design and deploy the remaining pages in the website]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/tomdan-ai/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
-If you like this project, please star it.
+If you like this project please give it a star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-I would like to thank the Microverse community for giving me the opportunity to work on the cirriculum.
+I would like to thank all my coding partners for the support
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+
+- **[How long did it take to finish the projects]**
+
+  - [It took a Three days tops]
+
+- **[Were any linters used]**
+
+  - [Yes they were used and can access them in this link https://github.com/microverseinc/linters-config/tree/master/html-css-js]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
