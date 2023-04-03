@@ -41,6 +41,8 @@ Awesome Books is a website built with modern Javascript, to aid writers to easil
 <a href="">CSS</a>
 <a href="">Javascript</a>
 
+### Live Demo
+Click <a href="https://tomdan-ai.github.io/Awesome-books-ES6/">here</a> to view live
 
 
 ### Key Features <a name="key-features"></a>
